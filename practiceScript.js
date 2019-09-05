@@ -5,6 +5,9 @@ $(document).ready(function(){
 	
 	$("#firstP").click(function(){
 		$(".otherP").hide();
+		$("img").css({"display":"inline"});
 	});
+	
+	
 	
 });
