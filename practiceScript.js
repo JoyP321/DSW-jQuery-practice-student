@@ -3,4 +3,8 @@ $(document).ready(function(){
 		$("p").fadeToggle();
 	});
 	
+	$("#firstP").click(function(){
+		$(".otherP").hide();
+	});
+	
 });
